@@ -8,7 +8,6 @@
 #include "tests\devkit\context\mocks\MockUserContext.hh"
 #include "tests\devkit\services\mocks\MockClock.hh"
 #include "tests\devkit\services\mocks\MockFileSystem.hh"
-#include "tests\devkit\services\mocks\MockHttpRequester.hh"
 #include "tests\devkit\services\mocks\MockThreadPool.hh"
 #include "tests\devkit\testutil\AssetAsserts.hh"
 #include "tests\mocks\MockAudioSystem.hh"
@@ -32,7 +31,6 @@
 #include "context\IRcClient.hh"
 #include "services\impl\OfflineRcClient.hh"
 
-#include <rcheevos\src\rapi\rc_api_common.h>
 #include <rcheevos\src\rc_client_internal.h>
 #include <rcheevos\src\rcheevos\rc_internal.h>
 
